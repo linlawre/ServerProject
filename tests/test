@@ -1,0 +1,12 @@
+foo "bar";
+
+server {
+  listen   80;
+  port     7100;
+  server_name foo.com;
+  echo /echo;
+  static /static {
+    root /static;
+  }
+  root /home/ubuntu/sites/foo/;
+}

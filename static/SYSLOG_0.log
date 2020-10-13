@@ -1,0 +1,33 @@
+[2020-06-11 18:50:21.950681]:[0x00007ff453b99740]:Trace: Parsing the config file...
+[2020-06-11 18:50:21.951166]:[0x00007ff453b99740]:Trace: Done parsing!
+[2020-06-11 18:50:21.951367]:[0x00007ff453b99740]:Trace: In Dispatcher
+[2020-06-11 18:50:21.951387]:[0x00007ff453b99740]:Trace: Server listening
+[2020-06-11 18:50:21.951408]:[0x00007ff453b99740]:Trace: Server has been initialized
+[2020-06-11 18:50:21.951426]:[0x00007ff453b99740]:Trace: Starting server on port: 7100
+[2020-06-11 18:50:23.890686]:[0x00007ff452a3f700]:Debug: Read handler
+[2020-06-11 18:50:23.890767]:[0x00007ff451a3d700]:Trace: GET /covid HTTP 1.1 Sender IP: 127.0.0.1
+[2020-06-11 18:50:23.890806]:[0x00007ff451a3d700]:Debug: Good Request
+[2020-06-11 18:50:23.890815]:[0x00007ff452a3f700]:Trace: In Dispatcher
+[2020-06-11 18:50:23.890831]:[0x00007ff451a3d700]:Trace: Check uri
+[2020-06-11 18:50:23.890845]:[0x00007ff452a3f700]:Trace: Server listening
+[2020-06-11 18:50:23.890889]:[0x00007ff451a3d700]:Trace: Handle covid
+[2020-06-11 18:50:23.890901]:[0x00007ff451a3d700]:Trace: IN HANDLER
+[2020-06-11 18:50:23.890913]:[0x00007ff451a3d700]:Trace: Covid Request
+[2020-06-11 18:50:23.892774]:[0x00007ff451a3d700]:Trace: [ResponseMetrics] 200|/covid|127.0.0.1|CovidHandler
+[2020-06-11 18:50:23.892896]:[0x00007ff451a3d700]:Debug: Write handler
+[2020-06-11 18:50:23.892974]:[0x00007ff45123c700]:Debug: Write closed
+[2020-06-11 18:50:25.970845]:[0x00007ff45223e700]:Debug: Read handler
+[2020-06-11 18:50:25.971101]:[0x00007ff45223e700]:Trace: In Dispatcher
+[2020-06-11 18:50:25.971184]:[0x00007ff45223e700]:Trace: Server listening
+[2020-06-11 18:50:25.971309]:[0x00007ff45223e700]:Debug: Read handler
+[2020-06-11 18:50:25.971467]:[0x00007ff45223e700]:Trace: In Dispatcher
+[2020-06-11 18:50:25.971578]:[0x00007ff45223e700]:Trace: Server listening
+[2020-06-11 18:50:25.974402]:[0x00007ff452a3f700]:Trace: GET /covid HTTP 1.1 Sender IP: 127.0.0.1
+[2020-06-11 18:50:25.974458]:[0x00007ff452a3f700]:Debug: Good Request
+[2020-06-11 18:50:25.974478]:[0x00007ff452a3f700]:Trace: Check uri
+[2020-06-11 18:50:25.974516]:[0x00007ff452a3f700]:Trace: Handle covid
+[2020-06-11 18:50:25.974533]:[0x00007ff452a3f700]:Trace: IN HANDLER
+[2020-06-11 18:50:25.974549]:[0x00007ff452a3f700]:Trace: Covid Request
+[2020-06-11 18:50:25.976171]:[0x00007ff452a3f700]:Trace: [ResponseMetrics] 200|/covid|127.0.0.1|CovidHandler
+[2020-06-11 18:50:25.976424]:[0x00007ff452a3f700]:Debug: Write handler
+[2020-06-11 18:50:25.976469]:[0x00007ff45123c700]:Debug: Write closed

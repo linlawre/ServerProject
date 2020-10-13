@@ -1,0 +1,21 @@
+listen   7100;
+location "/echo" EchoHandler {}
+location "/static" StaticHandler {
+  root "/static"; # base directory of static handler
+}
+location "/status" StatusHandler {
+}
+location "/health" HealthHandler {
+}
+location "/" ErrorHandler {
+}
+location "/ucla" ProxyHandler {
+  host "http://www.ucla.edu";
+  port_number "80";
+}
+location "/google" ProxyHandler {
+  host "http://www.google.com";
+  port_number "80";
+}
+location "/covid" CovidHandler {
+}

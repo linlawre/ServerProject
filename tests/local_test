@@ -1,0 +1,8 @@
+foo "bar";
+
+server {
+  listen   7101;
+  port     7100;
+  server_name foo.com;
+  root /home/ubuntu/sites/foo/;
+}
